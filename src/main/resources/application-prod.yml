@@ -1,0 +1,45 @@
+#server:
+#  port: 8082
+#spring:
+#  datasource:
+#    driver-class-name: org.postgresql.Driver
+#    initialization-mode: always
+#    url: jdbc:postgresql://ec2-44-209-186-51.compute-1.amazonaws.com:5432/d276ibb4ref658
+#    username: ouyrubsrdfsjad
+#    password: de671384f4ef32953cd2276c36e09d38166368112f75d4eba94bec0b622b608a
+#  jpa:
+#    properties:
+#      hibernate:
+#        dialect: org.hibernate.dialect.PostgreSQLDialect
+#        default_schema: nova_support_bot
+#        temp:
+#          use_jdbc_metadata_defaults: false
+#        jdbc:
+#          lob:
+#            non_contextual_creation: true
+#    hibernate:
+#      ddl-auto: create
+#    show-sql: true
+#
+#
+#
+#
+#telegram:
+#  botName: '@insurance_on_bot'
+#  token: '5545574868:AAFjT0MeHGZPvxS_QSFQFHzYgorJT2dYdgE'
+#
+#  spring.datasource.url=jdbc:postgresql://localhost:5432/supportBot
+#  spring.datasource.username=postgres
+#  spring.datasource.password=3003
+#  spring.jpa.hibernate.ddl-auto=update
+#  spring.datasource.driverClassName=org.postgresql.Driver
+#  spring.jpa.show-sql=true
+#  server.port=8082
+#  spring.datasource.initialization-mode=never
+#  server.error.include-binding-errors=always
+#
+#
+#  #telegram.botName:@novaSupportbot
+#  #telegram.token:5658902226:AAEtH3fXTzF5yzQkhZyVE4oKX30nw5iCraA
+#  telegram.botName:@Urganish_Uchun_bot
+#  telegram.token:5279015199:AAGljhVnlxL6L-Jfd4Y8WvhV5XSw7r2ItNg
