@@ -2547,3 +2547,6 @@ Caused by: org.postgresql.util.PSQLException: ERROR: relation "nova_support_bot.
 2022-09-02 22:59:08.044 DEBUG 6528 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
 2022-09-02 22:59:09.390  INFO 6528 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
 2022-09-02 22:59:09.405  INFO 6528 --- [main] o.i.supportbot.SupportBotApplicationKt   : Started SupportBotApplicationKt in 70.868 seconds (JVM running for 76.328)
+2022-09-02 23:00:29.422  INFO 6528 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-02 23:00:29.425  INFO 6528 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-09-02 23:00:29.448  INFO 6528 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
